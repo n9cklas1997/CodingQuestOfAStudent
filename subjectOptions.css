@@ -1,0 +1,11 @@
+.subjectOptions button{
+    font-size: 30px;
+    color: white;
+    background-color: pink;
+    border: none;
+}
+
+.subjectOptions-content {
+    display: none;
+    font-size: 20px;
+}

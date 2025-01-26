@@ -1,0 +1,19 @@
+.navBar ul{
+    background-color: pink;
+    font-family: 'Helvetica', 'Times New Roman';
+    font-weight: bold;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.navBar li{
+    float: left;
+}
