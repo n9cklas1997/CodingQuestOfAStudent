@@ -1,0 +1,11 @@
+.subjects button{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: pink;
+    border: none;
+}
+
+.subjects-content {
+    display: none;
+}

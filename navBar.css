@@ -1,16 +1,25 @@
+.navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the screen */
+    height: 40px; /* Define a fixed height */
+    background-color: pink; /* Ensure it has a background */
+}
+
 .navBar ul{
-    background-color: pink;
     font-family: 'Helvetica', 'Times New Roman';
     font-weight: bold;
+    font-size: 20px;
     list-style-type: none;
     padding: 0px;
-    margin: 0px;
-    overflow: hidden;
+    margin: 10px;
+    position: fixed;
 }
 
 .navBar a{
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 20px;
 }
 
