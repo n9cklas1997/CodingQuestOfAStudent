@@ -1,3 +1,4 @@
 function showContent(content) {
-    content.style.display = (content.style.display === "none") ? "block" : "none";
+    const currentDisplay = window.getComputedStyle(content).display;
+    content.style.display = (currentDisplay === "none" || currentDisplay === "") ? "block" : "none";
 }

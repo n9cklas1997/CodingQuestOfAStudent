@@ -1,28 +1,37 @@
 .navBar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; /* Full width of the screen */
-    height: 40px; /* Define a fixed height */
-    background-color: pink; /* Ensure it has a background */
+    background-color: rgb(255, 182, 203); 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: sticky;
+    top: 0px;
 }
 
 .navBar ul{
-    font-family: 'Helvetica', 'Times New Roman';
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     font-weight: bold;
     font-size: 20px;
-    list-style-type: none;
-    padding: 0px;
-    margin: 10px;
-    position: fixed;
-}
-
-.navBar a{
-    text-decoration: none;
-    color: black;
-    padding: 20px;
 }
 
 .navBar li{
-    float: left;
+    height: 50px;
+}
+
+.navBar a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.navBar a:hover{
+    color: white;
+}
+
+nav li:first-child{
+    margin-right: auto;
 }
